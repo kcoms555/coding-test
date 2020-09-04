@@ -1,0 +1,7 @@
+*.sh
+*.out
+*.swp
+*.obj
+*.o
+test.*
+main.*
