@@ -2,7 +2,6 @@ import heapq
 import collections
 
 def networkDelayTime(times, N, K):
-	#list -> adjacency list with dictionary
 	graph = collections.defaultdict(list)
 	for u, v, w in times:
 		graph[u].append((v,w))
